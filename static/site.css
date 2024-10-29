@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    font-size: small;
+    color: #F18435;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #EFCDAE;
+    background-color: #EFCDAE;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.thanks {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    margin-top: 40%;
+}
